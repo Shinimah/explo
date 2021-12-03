@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+body {
+    background-color: rgb(255, 253, 235);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(238, 177, 177);
+}
+a:visited {
+    color: rgb(91, 99, 102);
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-text {
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Metal+Mania&family=Oi&family=Pirata+One&family=Rubik+Beastly&display=swap');
+    font-family: 'Rubik Beastly', cursive;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.info-text h1 {
+    font-size: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:900;
+}
+.info-text h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+.info-text h3 {
+    font-size: 20px;
+}
+.poster {
+    margin: 20px;
+}
+.links {
+    display: flex;
+    font-weight: bolder;
+    margin-top: 110px;
+}

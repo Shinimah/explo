@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Metal+Mania&family=Oi&family=Pirata+One&display=swap');
+body {
+    background-color: rgb(255, 253, 235);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(238, 177, 177);
+}
+a:visited {
+    color: rgb(91, 99, 102);
+}
+.Y {
+    font-family: 'Metal Mania', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: center;
+    background-color: rgb(207, 36, 36);
+    margin: 5px;
+    padding: 1px;
+    border-radius: 20px;
+}
+.film {
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Metal+Mania&family=Oi&family=Pirata+One&family=Rubik+Beastly&display=swap');
+    font-family: 'Rubik Beastly', cursive;
+font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+        margin: 30px;
+        text-align: left;
+}
